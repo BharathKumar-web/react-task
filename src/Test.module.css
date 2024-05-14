@@ -1,0 +1,97 @@
+
+.parentContainer {
+    /* background-image: url('C:\Users\Admin\Pictures\Screenshots\d60443497c9696aeb20665b3a4194a57.png'); */
+    background-size: cover;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+
+
+.image{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+.appbar{
+    margin-left: 44px;
+    margin-right: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appbarContents{
+    display: flex;
+    justify-content: space-between;
+    gap:14px;
+    align-items: center;
+    font-size: 18px;
+}
+.contentsActive{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: lightsalmon;
+    
+}
+.logo{
+    width: 300px;
+    
+    height: 120px;
+}
+.contentsactive{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    cursor: pointer;
+    
+}
+.contentsactive:hover{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: lightsalmon;
+    cursor: pointer;
+    
+}
+.contentContainer{
+    max-width: 665px;
+    max-height: 168px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20%;
+    font-family: Diad;
+}
+.getStartContainer{
+    border: 1px solid #DDD;
+    border-radius: 40px;
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.arraow{
+    margin-left: 10px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%; 
+   background-color: greenyellow;
+}
+.getStart{
+    width: 90%;
+    height: 100%;
+    background-color: #E8B237;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+}

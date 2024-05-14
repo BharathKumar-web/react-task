@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+.backGroundImage {
+    background-image: url('../assets/d60443497c9696aeb20665b3a4194a57.png');
+    background-size: cover;
+    /* position: fixed;  */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+.contentsContainer{
+    
+    background-color: black;
+    opacity: 0.85;
+    height: 100vh;
+   
+}
+.contents{
+    max-width: 665px;
+    height: auto;
+    color: white;
+    display: flex;
+    margin-top: 12%;
+    margin-left: 56px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.choice{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold; 
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.inovationContainer{
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+}
+.innovative{
+    font-size: 65px;
+    font-weight: 400;
+    font-family:  'Cinzel', serif;
+}
+.modern{
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Marcellus', serif;
+    border: 1px soild black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 10, 1); 
+    letter-spacing: 2px;
+    word-spacing: 4px; 
+    flex-wrap: wrap;
+    color: #ffffff;
+    z-index: 1
+}
+.otherContents{
+    font-size: 26px;
+    line-height: 42px;
+    font-family: 'Didact Gothic';
+}
+.btnContainer {
+    width: 248px;
+    height: 53px;
+    border-radius: 38px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .getStartContainer {
+    width: 180px;
+    background-color: #e8b237;
+    height: 51px;
+    border-radius: 38px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "gilory", sans-serif;
+    font-weight: 600;
+  }
+.arrowContainer{
+    margin:8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  #2D4F46;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+}
+.getStartContainer{
+    width: 180px;
+    background-color:  #E8B237;
+    height: 51px;
+    border-radius: 38px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    z-index: 1;
+}
+
+@media (max-width: 555px) {
+    .innovative {
+        font-size: 38px;
+    }
+    .modern{
+        font-size: 45px;
+    }
+    .contents{
+        margin-left: 20px;
+    }
+   
+}
+.modern1{
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 81.5px;
+    border: 1px solid black;
+    color: white;
+}
+/* @media (max-width: 1100px) {
+  .contents{
+    margin-top: 3%;
+  }
+   
+}
+@media (min-width: 2000px) {
+    .contents{
+      margin-top: 15%;
+    }
+     
+  } */
