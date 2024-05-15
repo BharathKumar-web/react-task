@@ -18,7 +18,7 @@ const Home = () => {
             }}
             data-aos="fade-down"
             data-aos-duration="1300">
-            <div className={`${classes.contents} font-sans`}>
+            <div className={`${classes.contents} font-sans`} style={{width:'100%'}}>
               <p className={`${classes.choice} font-bold`}>
                 The choice around the world
               </p>

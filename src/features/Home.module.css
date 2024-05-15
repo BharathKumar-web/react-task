@@ -2,7 +2,9 @@
 
 
 .backGroundImage {
-    background-image: url('../assets/d60443497c9696aeb20665b3a4194a57.png');
+    /* background-image: url('../assets/d60443497c9696aeb20665b3a4194a57.png'); */
+    background-image: linear-gradient(rgba(0, 2, 10, 0.7),
+    rgba(0, 2, 10, 0.7)), url("../assets/d60443497c9696aeb20665b3a4194a57.png");
     background-size: cover;
     /* position: fixed;  */
     top: 0;
@@ -13,8 +15,7 @@
 }
 .contentsContainer{
     
-    background-color: black;
-    opacity: 0.85;
+    
     height: 100vh;
    
 }
@@ -62,6 +63,13 @@
     font-size: 26px;
     line-height: 42px;
     font-family: 'Didact Gothic';
+}
+.otherContents2{
+    
+    font-size: 65px;
+    font-weight: 400;
+    font-family:  'Cinzel', serif;
+    width: 100%;
 }
 .btnContainer {
     width: 248px;

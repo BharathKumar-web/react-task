@@ -1,6 +1,6 @@
 .appbarContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 36px;
     margin-right: 36px;
     align-items: center;
@@ -18,11 +18,13 @@
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    background-color: black;
     padding:14px;
-    column-gap:20px;
+    column-gap:70px;
     flex-wrap: wrap;
-z-index: 100;    
+    margin-top: 20px;
+    border-radius: 5px;
+
 }
 .contentsServices{
     font-weight: 500;
@@ -32,12 +34,11 @@ z-index: 100;
     text-transform: uppercase;
     cursor: pointer;
 }
-
-
 .dropDownHeaders{
     color: white;
     font-family: "Roboto",sans-serif;
     font-size: 18px;
+    font-weight: bolder;
 }
 .dropDownContent{
     color: white;
@@ -99,5 +100,7 @@ z-index: 100;
     display: block;
     cursor: pointer;
 }
-
+.appbarContainer{
+    justify-content: flex-end;
+}
 }

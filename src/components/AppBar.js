@@ -45,7 +45,7 @@ const AppBar = () => {
               onMouseLeave={() => setIsHovered(false)}
               className={classes.dropDownContainer}>
               <div className={classes.dropDownContentContainer}>
-                <p className={classes.dropDownHeaders}>Designs</p>
+                <p className={classes.dropDownHeaders}>Data & Analytics</p>
                 <p className={classes.dropDownContent}>Kids Room Interior</p>
                 <p className={classes.dropDownContent}>Modular Kitchen</p>
                 <p className={classes.dropDownContent}>Bedroom Interior</p>
@@ -57,6 +57,7 @@ const AppBar = () => {
                 <p className={classes.dropDownHeaders}>Work Process</p>
                 <p className={classes.dropDownContent}>Strategic Planning</p>
                 <p className={classes.dropDownContent}>Developing Concepts</p>
+                <p className={classes.dropDownContent}>Design Development</p>
                 <p className={classes.dropDownContent}>Design Development</p>
               </div>
               <div className={classes.dropDownContentContainer}>
@@ -75,18 +76,27 @@ const AppBar = () => {
                 <p className={classes.dropDownContent}>Royal</p>
                 <p className={classes.dropDownContent}>Residential</p>
               </div>
+              <div className={classes.dropDownContentContainer}>
+                <p className={classes.dropDownHeaders}>Features</p>
+                <p className={classes.dropDownContent}>Hospitality</p>
+                <p className={classes.dropDownContent}>Interior</p>
+                <p className={classes.dropDownContent}>Royal</p>
+                <p className={classes.dropDownContent}>Residential</p>
+              </div>
             </div>
           )}
         </div>
-        <p className={classes.contents}>Home</p>
-        <p className={classes.contents}>About us</p>
-
         <p
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           className={classes.contentsServices}>
           services
         </p>
+        <p className={classes.contents}>Home</p>
+        <p className={classes.contents}>About</p>
+        <p className={classes.contents}>Work</p>
+        <p className={classes.contents}>Recoganation</p>
+        <p className={classes.contents}>Teachnalogy</p>
 
         <p className={classes.contents}>Products</p>
         <p className={classes.contents}>Blog</p>
@@ -94,7 +104,7 @@ const AppBar = () => {
         <div
           onMouseEnter={() => setIsContactHovered(true)}
           onMouseLeave={() => setIsContactHovered(false)}>
-          <p className={classes.contents}>Contact us</p>
+          <p className={classes.contents}>Contact</p>
           {isContactHovered && (
             <div
               onClick={navigateToForm}
