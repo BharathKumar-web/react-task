@@ -26,6 +26,10 @@
     border-radius: 5px;
 
 }
+.dropDownContent:hover{
+    background-color: #FF7B00;   
+    border-radius: 3px;
+}
 .contentsServices{
     font-weight: 500;
     font-size: 16px;
@@ -44,6 +48,8 @@
     color: white;
     font-family: "Roboto",sans-serif;
     font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 .dropDownContentContainer{
    display: flex;
