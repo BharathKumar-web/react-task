@@ -88,7 +88,7 @@ const AppBar = () => {
         </div>
         <p
           onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
+          
           className={classes.contentsServices}>
           services
         </p>
